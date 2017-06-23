@@ -9,11 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CustomerController {
 
+    public static final String  path = "/customer";
+
     private Logger logger = LoggerFactory.getLogger(CustomerController.class);
 
-    @RequestMapping(name = "/customer")
+    @RequestMapping(name = path)
     public Customer get(@RequestParam(value = "id", required = true) Long id) {
-        logger.info("Incoming request: GET /customer?id=" + id);
+        logger.info("Incoming request: GET " + path + "?id=" + id);
         return Customer.builder()
                 .name("Alexander Schmitt")
                 .email("aschme@me.com")
