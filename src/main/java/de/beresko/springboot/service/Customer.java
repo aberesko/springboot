@@ -1,4 +1,4 @@
-package de.beresko.springboot;
+package de.beresko.springboot.service;
 
 import lombok.*;
 

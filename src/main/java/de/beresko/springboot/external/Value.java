@@ -1,4 +1,4 @@
-package de.beresko.springboot;
+package de.beresko.springboot.external;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
