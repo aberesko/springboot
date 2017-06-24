@@ -1,7 +1,6 @@
 package de.beresko.springboot.service;
 
 import de.beresko.springboot.external.Quote;
-import de.beresko.springboot.service.Customer;
 import lombok.extern.java.Log;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
